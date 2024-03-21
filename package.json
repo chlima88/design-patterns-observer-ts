@@ -1,0 +1,27 @@
+{
+  "name": "observer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --inspect --transpile-only --watch src src/main.ts",
+    "ts:start": "ts-node -r tsconfig-paths/register --transpile-only src/main.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_moduleDirectories": [
+    "src"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.2"
+  }
+}
