@@ -1,4 +1,4 @@
-# Exemplo de Aplicação do Design Pattern Observer em TypeScript
+# Exemplo de Aplicação do Design Pattern Observer 🔍 em TypeScript 
 
 Este é um exemplo simples de aplicação do padrão de projeto Observer em TypeScript. O padrão Observer é um padrão comportamental que permite que um objeto, chamado de "provider", mantenha uma lista de seus dependentes, chamados de "observers", e notifique-os automaticamente sobre qualquer mudança de estado, geralmente por meio de um método de callback.
 
@@ -16,12 +16,12 @@ Certifique-se de ter o Node.js e o TypeScript instalados em seu ambiente de dese
 
 1. Clone este repositório:
 
-`git clone https://github.com/chlima88/nome-do-repositorio.git`
+`git clone https://github.com/chlima88/design-patterns-observer-ts.git`
 
 
 2. Navegue até o diretório do projeto:
 
-`cd nome-do-repositorio`
+`cd design-patterns-observer-ts`
 
 
 3. Instale as dependências do projeto:
