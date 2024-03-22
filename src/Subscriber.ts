@@ -1,5 +1,5 @@
-import { BrokerMessage } from "./BrokerMessage";
-import { ISubscriber } from "./ISubscriber";
+import { BrokerMessage } from "BrokerMessage";
+import { ISubscriber } from "ISubscriber";
 
 export class Subscriber implements ISubscriber {
     private name: string;
